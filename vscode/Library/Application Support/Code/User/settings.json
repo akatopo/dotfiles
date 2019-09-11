@@ -1,0 +1,138 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled":false,
+    "editor.autoIndent": true,
+    "editor.fontFamily": "'Operator Mono', PCMyungjo",
+    "editor.fontLigatures": true,
+    "editor.cursorStyle": "line-thin",
+    "editor.lineHeight": 0,
+    "editor.renderIndentGuides": true,
+    "editor.renderWhitespace": "none",
+    "editor.roundedSelection": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.renderLineHighlight": "gutter",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "explorer.openEditors.visible": 0,
+    "window.restoreWindows": "folders",
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.colorTheme": "One Dark (Sublime)",
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#30353E",
+        "statusBar.foreground": "#618C94",
+        "statusBar.noFolderBackground" : "#252526",
+        "statusBar.debuggingBackground": "#252526",
+        // "statusBarBackground": "white",
+        // "panelBackground": "#555555",
+        "sideBar.background": "#30353E",
+        "sideBarTitle.foreground": "#618C94",
+        "sideBarSectionHeader.background": "#282C34",
+        "activityBar.background": "#30353E",
+        "tab.inactiveBackground": "#282C34"
+    },
+    "workbench.activityBar.visible": false,
+    "emojisense.markupCompletionsEnabled": true,
+    "files.associations": {
+        "*.js": "javascript"
+    },
+    "cSpell.enabledLanguageIds": [
+        "c",
+        "cpp",
+        "csharp",
+        "go",
+        "html",
+        "javascript",
+        "json",
+        "latex",
+        "markdown",
+        "php",
+        "plaintext",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yml",
+        "javascriptreact"
+    ],
+    "color-highlight.markerType": "dot-after",
+    "color-highlight.markRuler": false,
+    "color-highlight.languages": [
+        "*"
+    ],
+    "cSpell.language": ",en",
+    "editor.colorDecorators": false,
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "search.smartCase": true,
+    "prettier.requireConfig": true,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.detectIndentation": true,
+    "files.trimTrailingWhitespace": true,
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": true,
+    "cSpell.userWords": [
+        "memoized",
+        "presentational",
+        "unmount"
+    ],
+    "window.titleBarStyle": "native",
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.tabSize": 2,
+    "editor.fontSize": 14,
+    "editor.fontWeight": "300",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "importCost.mediumPackageColor": "#5C6370",
+    "importCost.smallPackageColor": "#5C6370",
+    "editor.wordBasedSuggestions": false,
+    "markdown.extension.toc.githubCompatibility": true,
+    "prettifySymbolsMode.substitutions": [
+        {
+            "language": ["javascript", "javascriptreact"],
+            "revealOn": "active-line",
+            "substitutions": [
+                {"ugly": "=>", "pretty": "⇒", "style": {"color": "#C678DD"}},
+                {"ugly": "for", "pretty": "∀", "pre": "\\b", "post": " \\(", "style": {"color": "#C678DD"}},
+                {"ugly": "===", "pretty": "≡", "style": {"color": "#56B6C2"}},
+                {"ugly": "!==", "pretty": "≢", "style": {"color": "#56B6C2"}},
+                { "ugly": ">=", "pretty": "≥", "pre": "[^=\\-<>]|^", "post": "[^=\\-<>]|$", "style": {"color": "#56B6C2"} },
+                { "ugly": "<=", "pretty": "≤", "pre": "[^=\\-<>]|^", "post": "[^=\\-<>]|$", "style": {"color": "#56B6C2"} }
+            ]
+        }
+    ],
+    "editor.formatOnSave": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "better-comments.tags": [
+        {
+            "tag": "fixme",
+            "color": "#eb9aab",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "todo",
+            "color": "#b1d4b1",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        }
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "editor.cursorSurroundingLines": 20
+}
