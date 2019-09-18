@@ -133,6 +133,5 @@
             "backgroundColor": "transparent"
         }
     ],
-    "explorer.confirmDragAndDrop": false,
-    "editor.cursorSurroundingLines": 20
+    "explorer.confirmDragAndDrop": false
 }
