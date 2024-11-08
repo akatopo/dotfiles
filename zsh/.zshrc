@@ -112,4 +112,32 @@ alias gdc='git diff --cached'
 
 export ZSH_AUTOSUGGEST_USE_ASYNC="YES"
 export ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE="1000"
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# fzf
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+
+# Load tokens
+source "$HOME/tokens.sh"
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+# Node compile cache (https://nodejs.org/en/blog/release/v22.1.0)
+export NODE_COMPILE_CACHE="$HOME/.node-compile-cache"
+
+# zsh-syntax-highlighting
+[ -f /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && \
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# atuin
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh)"
