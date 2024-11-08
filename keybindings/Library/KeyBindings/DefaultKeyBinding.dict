@@ -98,6 +98,7 @@
             "8" = ("insertText:", "₈"); /* Subscript 8 */
             "9" = ("insertText:", "₉"); /* Subscript 9 */
         };
+        "e" = ("insertText:", "€"); /* euro */
         "k" = {
           "e" = {
             "y" = {
