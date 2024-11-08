@@ -98,10 +98,17 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="gls -A --color"
-alias syntax="pygmentize -g"
-
-[ -f /usr/local/Cellar/zsh-syntax-highlighting/0.6.0/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && \
-source /usr/local/Cellar/zsh-syntax-highlighting/0.6.0/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias syntax="pygmentize -P 'style=github-dark' -g"
+alias less="less -R"
+alias strip-exif="mogrify -strip"
+alias fzo="fzf | xargs open"
+alias ytdl="yt-dlp --write-sub --sub-lang 'en.*' --write-info-json"
+alias gst="git status"
+alias gc="git commit"
+alias co="git checkout"
+alias gaa="git add -A"
+alias gd="git diff"
+alias gdc='git diff --cached'
 
 export ZSH_AUTOSUGGEST_USE_ASYNC="YES"
 export ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE="1000"
