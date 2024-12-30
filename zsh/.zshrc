@@ -97,7 +97,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls="gls -A --color"
+alias ls="lsd"
+alias l="ls -lt"
 alias syntax="pygmentize -P 'style=github-dark' -g"
 alias less="less -R"
 alias strip-exif="mogrify -strip"
